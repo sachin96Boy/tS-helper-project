@@ -3,7 +3,7 @@ import { faker } from '@faker-js/faker';
 // import { fakerDE as faker } from '@faker-js/faker';
 
 
-class Company {
+export class Company {
     private companyName: string;
     private catchPrase: string;
     private location: {
