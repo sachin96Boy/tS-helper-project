@@ -2,7 +2,7 @@ import { faker } from '@faker-js/faker';
 // or, if desiring a different locale
 // import { fakerDE as faker } from '@faker-js/faker';
 
-class User {
+export class User {
     private  name: string;
     private  location: {
         lat:number;
@@ -28,4 +28,3 @@ class User {
 
 }
 
-export default User;
