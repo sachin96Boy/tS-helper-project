@@ -7,6 +7,15 @@ const company = new Company();
 
 const map_obj = new CustomMap();
 
+map_obj.addMarker({
+    location: user.getLocation,
+    name: user.getName
+});
+map_obj.addMarker({
+    location: company.getLocation,
+    name: company.getCompanyName
+});
+
 
 console.log(company, user);
 
